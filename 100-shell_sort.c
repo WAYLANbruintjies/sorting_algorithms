@@ -11,8 +11,8 @@
  */
 void shell_sort(int *array, size_t size)
 {
-	int gap;
-	int temp, i, j;
+	unsigned int gap, i, j;
+	int temp;
 
 	gap = 1;
 
